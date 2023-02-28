@@ -1,0 +1,64 @@
+/* Formatação padrão */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background: #A4A4A4;
+}
+
+/* Estrutura do site */
+
+#cabecalho {
+	background: #58ACFA;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+	height: 50px;
+	padding: 0.5%;
+}
+
+
+/* links */
+
+a {
+	text-decoration: none;
+}
+
+#menu-principal > a:visited, #menu-principal > a:link {
+	color: #F7FE2E;
+}
+
+#menu-principal > a:hover{
+	color: #8A0829;
+	background: #A4A4A4;
+}
+
+/* estilização de textos */
+
+#nome-cabecalho {
+	font-size: 2em;
+	color: #F7FE2E;
+	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
+	display: block;
+	text-align: left;
+	padding-left: 0.5%;
+	text-shadow: 2px 2px black;
+}
+
+#menu-principal {
+	padding: 0.5%;
+	margin-left: 35%;
+	position: relative;
+	right: 150px;
+	bottom: 35px;
+	word-spacing: 1%;
+}
+
+.escapamento-menu {
+	margin: 3%;
+}
