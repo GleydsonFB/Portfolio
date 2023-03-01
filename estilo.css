@@ -8,7 +8,8 @@
 body {
 	font-size: 1em;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	background: #A4A4A4;
+	background: #B2AFAF;
+	margin: auto;
 }
 
 /* Estrutura do site */
@@ -22,11 +23,48 @@ body {
 	padding: 0.5%;
 }
 
+#area-principal {
+	background: white;
+	width: 70%;
+	padding: 0.5%;
+	float: left;
+	margin-top: 2%;
+	margin-left: 2.5%;
+}
+
+#menu-principal {
+	padding: 0.5%;
+	width: 40%;
+	margin-top: 0.3%;
+	margin-right: 35%;
+	float: right;
+	word-spacing: 1%;
+}
+
+#menu-lateral {
+	background: white;
+	width: 10%;
+	padding: 0.5%;
+	float: right;
+	position: fixed;
+	top: 20%;
+	right: 2.5%;
+	text-align: center;
+}
 
 /* links */
 
 a {
 	text-decoration: none;
+}
+
+#menu-lateral > a:visited, #menu-lateral > a:link {
+	color: #49298D;
+}
+
+#menu-lateral > a:hover{
+	color: #58ACFA;
+	background: #B2AFAF;
 }
 
 #menu-principal > a:visited, #menu-principal > a:link {
@@ -35,7 +73,7 @@ a {
 
 #menu-principal > a:hover{
 	color: #8A0829;
-	background: #A4A4A4;
+	background: #B2AFAF;
 }
 
 /* estilização de textos */
@@ -45,20 +83,27 @@ a {
 	color: #F7FE2E;
 	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
 	display: block;
-	text-align: left;
+	float: left;
 	padding-left: 0.5%;
 	text-shadow: 2px 2px black;
 }
 
-#menu-principal {
-	padding: 0.5%;
-	margin-left: 35%;
-	position: relative;
-	right: 150px;
-	bottom: 35px;
-	word-spacing: 1%;
-}
-
 .escapamento-menu {
 	margin: 3%;
+}
+
+#menu-lateral > h3 {
+	color: #58ACFA;
+}
+
+hr {
+	border: 2px dotted black;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+#cabecalho > img {
+	position: relative;
+	width: 4%;
+	left: 79.3%;
 }
