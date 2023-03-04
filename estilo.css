@@ -12,6 +12,7 @@ body {
 	margin: auto;
 }
 
+
 /* Estrutura do site */
 
 #cabecalho {
@@ -106,4 +107,152 @@ hr {
 	position: relative;
 	width: 4%;
 	left: 79.3%;
+}
+
+/* formatação responsiva */
+
+@media screen and (max-width: 770px) {
+
+	* {
+		font-size: 1em;
+	}
+	#nome-cabecalho {
+		font-size: 27px;
+		text-align: center;
+		float: none;
+	}
+
+	#cabecalho > img {
+		left: 90%;
+		bottom: 100%;
+		width: 10%;
+		display: block;
+	}
+
+	#menu-principal {
+		width: 100%;
+		margin: auto;
+		margin-top: 0.8%;
+		text-align: center;
+		float: none;
+
+	}
+
+	#cabecalho {
+		height: 60px;
+	}
+
+	.escapamento-menu {
+		margin: auto;
+	}
+
+	#area-principal {
+		width: 90%;
+		float: none;
+		margin: auto;
+		margin-top: 2%;
+	}
+
+	#menu-lateral {
+		float: none;
+		position: relative;
+		margin: auto;
+		width: 70%;
+		margin-top: 2%;
+	}
+}
+
+@media screen and (max-height: 481px) {
+
+	* {
+		font-size: 1em;
+	}
+	#nome-cabecalho {
+		font-size: 27px;
+		text-align: center;
+		float: none;
+	}
+
+	#cabecalho > img {
+		left: 90%;
+		bottom: 113%;
+		width: 8%;
+		display: block;
+	}
+
+	#menu-principal {
+		width: 100%;
+		margin: auto;
+		margin-top: 0.5%;
+		text-align: center;
+		float: none;
+
+	}
+
+	#cabecalho {
+		height: 60px;
+	}
+
+	.escapamento-menu {
+		margin: auto;
+	}
+
+	#area-principal {
+		width: 90%;
+		float: none;
+		margin: auto;
+		margin-top: 2%;
+	}
+
+	#menu-lateral {
+		float: none;
+		position: relative;
+		margin: auto;
+		width: 70%;
+		margin-top: 2%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+
+	* {
+		font-size: 13px;
+	}
+	#nome-cabecalho {
+		font-size: 24px;
+		text-align: center;
+		float: none;
+	}
+
+	#cabecalho > img {
+		display: none;
+	}
+
+	#menu-principal {
+		width: 100%;
+		margin: auto;
+		margin-top: 0.7%;
+		text-align: center;
+		float: none;
+
+	}
+
+	.escapamento-menu {
+		margin: auto;
+	}
+
+	#area-principal {
+		width: 90%;
+		float: none;
+		margin: auto;
+		margin-top: 2%;
+	}
+
+	#menu-lateral {
+		float: none;
+		position: relative;
+		margin: auto;
+		width: 70%;
+		margin-top: 2%;
+	}
 }
