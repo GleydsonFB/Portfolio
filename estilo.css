@@ -53,6 +53,12 @@ body {
 	text-align: center;
 }
 
+#form {
+	background: gray;
+	width: 95%;
+	margin: auto;
+	display: block;
+}
 /* links */
 
 a {
@@ -109,60 +115,43 @@ hr {
 	left: 79.3%;
 }
 
-/* formatação responsiva */
-
-@media screen and (max-width: 770px) {
-
-	* {
-		font-size: 1em;
-	}
-	#nome-cabecalho {
-		font-size: 27px;
-		text-align: center;
-		float: none;
-	}
-
-	#cabecalho > img {
-		left: 90%;
-		bottom: 100%;
-		width: 10%;
-		display: block;
-	}
-
-	#menu-principal {
-		width: 100%;
-		margin: auto;
-		margin-top: 0.8%;
-		text-align: center;
-		float: none;
-
-	}
-
-	#cabecalho {
-		height: 60px;
-	}
-
-	.escapamento-menu {
-		margin: auto;
-	}
-
-	#area-principal {
-		width: 90%;
-		float: none;
-		margin: auto;
-		margin-top: 2%;
-	}
-
-	#menu-lateral {
-		float: none;
-		position: relative;
-		margin: auto;
-		width: 70%;
-		margin-top: 2%;
-	}
+p {
+	text-decoration: none;
+	font-family: Verdana, sans-serif;
 }
 
-@media screen and (max-height: 481px) {
+input {
+	width: 95%;
+	margin-left: 2%;
+	padding: 0.1%;
+	margin-bottom: 1%;
+	font-size: 14px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#area-principal > h2 {
+	text-align: center;
+	color: #58ACFA;
+	margin-bottom: 2%;
+	font-size: 1.3em;
+}
+
+#area-principal img {
+	position: relative;
+	left: 35%;
+}
+
+.texto-form {
+	text-align: left;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	color: #58ACFA;
+}
+
+
+/* formatação responsiva */
+
+@media (max-width: 900px) {
 
 	* {
 		font-size: 1em;
@@ -213,7 +202,58 @@ hr {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 481px) AND (max-height: 768px) {
+
+	* {
+		font-size: 1em;
+	}
+	#nome-cabecalho {
+		font-size: 27px;
+		text-align: center;
+		float: none;
+	}
+
+	#cabecalho > img {
+		left: 90%;
+		bottom: 100%;
+		width: 10%;
+		display: block;
+	}
+
+	#menu-principal {
+		width: 100%;
+		margin: auto;
+		margin-top: 0.8%;
+		text-align: center;
+		float: none;
+
+	}
+
+	#cabecalho {
+		height: 60px;
+	}
+
+	.escapamento-menu {
+		margin: auto;
+	}
+
+	#area-principal {
+		width: 90%;
+		float: none;
+		margin: auto;
+		margin-top: 2%;
+	}
+
+	#menu-lateral {
+		float: none;
+		position: relative;
+		margin: auto;
+		width: 70%;
+		margin-top: 2%;
+	}
+}
+
+@media (max-width: 600px) {
 
 	* {
 		font-size: 13px;

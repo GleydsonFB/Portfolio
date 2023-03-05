@@ -25,9 +25,22 @@
 
 	<!-- área do conteúdo principal -->
 	<section id="area-principal">
-		<h2>okok</h2>
-	</section>
-
+		<h2>Preencha as informações que irei te retornar em breve!</h2>
+		<form action="https://api.staticforms.xyz/submit" method="post" id="form">
+			<input type="hidden" name="accessKey" value="8a7e27fc-4025-43d0-8f40-a85be1c87d7a">
+			<input type="hidden" name="redirectTo" value="google.com">
+			<span class="texto-form">Nome*</span>
+			<input type="text" name="name" placeholder="Pessoa X da Silva" required autofocus>
+			<span class="texto-form">E-mail*</span>
+			<input type="email" name="email" placeholder="pessoax@gmail.com" required>
+			<span class="texto-form">Telefone</span>
+			<input type="text" name="phone" placeholder="(11) 99999-9999">
+			<span class="texto-form">Assunto*</span>
+			<input type="text" name="subject" placeholder="xxxx" required>
+			<span class="texto-form">Mensagem*</span>
+			<input type="text-area" name="message" required style="">
+			<input type="submit" name="enviar" value="Enviar" style="width: 20%; margin-left: 77.7%;">
+		</form>
 	<!-- área do menu lateral -->
 	<section id="menu-lateral">
 		<h3>Acesso rápido</h3>
