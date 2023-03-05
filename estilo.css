@@ -136,7 +136,7 @@ input {
 	font-size: 1.3em;
 }
 
-#area-principal img {
+#area-principal > img {
 	position: relative;
 	left: 35%;
 }
