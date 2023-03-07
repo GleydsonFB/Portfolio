@@ -31,6 +31,7 @@ body {
 	float: left;
 	margin-top: 2%;
 	margin-left: 2.5%;
+	border-radius: 20px;
 }
 
 #menu-principal {
@@ -51,13 +52,16 @@ body {
 	top: 20%;
 	right: 2.5%;
 	text-align: center;
+	border-radius: 20px;
 }
 
 #form {
-	background: gray;
-	width: 95%;
+	background: dimgray;
+	width: 98%;
 	margin: auto;
+	border-radius: 20px;
 	display: block;
+	padding: 0.2%;
 }
 /* links */
 
@@ -116,14 +120,32 @@ hr {
 }
 
 p {
-	text-decoration: none;
 	font-family: Verdana, sans-serif;
+	text-align: justify;
+	margin-left: 1%;
+	margin-right: 1%;
 }
 
 input {
 	width: 95%;
+	outline: unset;
 	margin-left: 2%;
-	padding: 0.1%;
+	padding: 0.5%;
+	margin-bottom: 1%;
+	font-size: 14px;
+	border: 1px solid #58ACFA;
+	border-radius: 15px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+textarea {
+	width: 95%;
+	outline: unset;
+	margin-left: 2%;
+	border: 1px solid #58ACFA;
+	border-radius: 15px;
+	padding: 0.5%;
+	height: 100px;
 	margin-bottom: 1%;
 	font-size: 14px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
@@ -148,6 +170,14 @@ input {
 	color: #58ACFA;
 }
 
+input[type=submit] {
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background: #58ACFA;
+	color: #F7FE2E;
+}
 
 /* formatação responsiva */
 
@@ -191,65 +221,16 @@ input {
 		float: none;
 		margin: auto;
 		margin-top: 2%;
+		border-radius: 10px;
 	}
 
 	#menu-lateral {
 		float: none;
 		position: relative;
 		margin: auto;
-		width: 70%;
+		width: 30%;
 		margin-top: 2%;
-	}
-}
-
-@media (max-width: 481px) AND (max-height: 768px) {
-
-	* {
-		font-size: 1em;
-	}
-	#nome-cabecalho {
-		font-size: 27px;
-		text-align: center;
-		float: none;
-	}
-
-	#cabecalho > img {
-		left: 90%;
-		bottom: 100%;
-		width: 10%;
-		display: block;
-	}
-
-	#menu-principal {
-		width: 100%;
-		margin: auto;
-		margin-top: 0.8%;
-		text-align: center;
-		float: none;
-
-	}
-
-	#cabecalho {
-		height: 60px;
-	}
-
-	.escapamento-menu {
-		margin: auto;
-	}
-
-	#area-principal {
-		width: 90%;
-		float: none;
-		margin: auto;
-		margin-top: 2%;
-	}
-
-	#menu-lateral {
-		float: none;
-		position: relative;
-		margin: auto;
-		width: 70%;
-		margin-top: 2%;
+		border-radius: 10px;
 	}
 }
 
@@ -282,10 +263,12 @@ input {
 	}
 
 	#area-principal {
-		width: 90%;
+		width: 92%;
 		float: none;
 		margin: auto;
 		margin-top: 2%;
+		border-radius: 10px;
+		padding: 1%;
 	}
 
 	#menu-lateral {
@@ -294,5 +277,19 @@ input {
 		margin: auto;
 		width: 70%;
 		margin-top: 2%;
+		border-radius: 10px;
+		margin-bottom: 2%;
+	}
+
+	#menu-lateral > h3 {
+		font-size: 20px;
+	}
+
+	#form {
+		width: 99%;
+	}
+
+	input, textarea {
+		padding: 1%;
 	}
 }
