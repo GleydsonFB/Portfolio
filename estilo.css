@@ -63,6 +63,31 @@ body {
 	display: block;
 	padding: 0.2%;
 }
+
+#tabela-livro {
+	background: #F7FE2E;
+	margin: auto;
+	padding: 0.9%;
+	width: 90%;
+	border-radius: 20px;
+}
+
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+	padding: 5px 5px;
+	text-align: center;
+}
+
+th {
+	color: #49298D;
+	font-size: 1.1em;
+}
+
+.linha-tabela:hover {
+	background: white;
+}
+
 /* links */
 
 a {
@@ -76,6 +101,11 @@ a {
 #menu-lateral > a:hover{
 	color: #58ACFA;
 	background: #B2AFAF;
+	border-radius: 10px;
+}
+
+.linha-tabela a:visited, .linha-tabela a:link {
+	color: #58ACFA;
 }
 
 #menu-principal > a:visited, #menu-principal > a:link {
@@ -85,6 +115,11 @@ a {
 #menu-principal > a:hover{
 	color: #8A0829;
 	background: #B2AFAF;
+	border-radius: 10px;
+}
+
+.legenda-livro > a:visited, .legenda-livro a:link {
+	color: #58ACFA;
 }
 
 /* estilização de textos */
@@ -177,6 +212,18 @@ input[type=submit] {
 input[type=submit]:hover {
 	background: #58ACFA;
 	color: #F7FE2E;
+}
+
+.legenda-livro {
+	display: block;
+	position: relative;
+	left: 70%;
+	padding: 0.3%;
+	margin-top: 1%;
+}
+
+.aparece-cel {
+	display: none;
 }
 
 /* formatação responsiva */
@@ -291,5 +338,21 @@ input[type=submit]:hover {
 
 	input, textarea {
 		padding: 1%;
+	}
+
+	.oculta-data {
+		display: none;
+	}
+
+	.legenda-livro {
+		left: 30%;
+	}
+
+	.aparece-cel {
+		display: block;
+		text-align: center;
+		margin-top: 5%;
+		border: 1px solid #58ACFA;
+		border-radius: 10px;
 	}
 }
