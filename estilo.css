@@ -35,11 +35,14 @@ body {
 }
 
 #menu-principal {
+	font-size: 1.1em;
 	padding: 0.5%;
 	width: 40%;
 	margin-top: 0.3%;
 	margin-right: 35%;
 	float: right;
+	position: relative;
+	bottom: 85%;
 	word-spacing: 1%;
 }
 
@@ -99,7 +102,7 @@ a {
 }
 
 #menu-lateral > a:hover{
-	color: #58ACFA;
+	color: white;
 	background: #B2AFAF;
 	border-radius: 10px;
 }
@@ -125,11 +128,50 @@ a {
 /* estilização geral */
 
 #nome-cabecalho {
-	font-size: 2em;
+	font-size: 2.2em;
 	color: #F7FE2E;
 	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
 	display: block;
 	float: left;
+	padding-left: 0.5%;
+	text-shadow: 2px 2px black;
+}
+
+#complemento-cabecalho {
+	font-size: 2.2em;
+	color: #F7FE2E;
+	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
+	display: block;
+	float: right;
+	position: relative;
+	right: 15%;
+	padding-left: 0.5%;
+	text-shadow: 2px 2px black;
+}
+
+
+#complemento-cabecalho-um {
+	font-size: 2.2em;
+	color: #F7FE2E;
+	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
+	display: block;
+	float: right;
+	position: relative;
+	right: 3%;
+	bottom: 25%;
+	padding-left: 0.5%;
+	text-shadow: 2px 2px black;
+}
+
+#complemento-cabecalho-dois {
+	font-size: 2.2em;
+	color: #F7FE2E;
+	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
+	display: block;
+	float: right;
+	position: relative;
+	left: 1.7%;
+	top: 29%;
 	padding-left: 0.5%;
 	text-shadow: 2px 2px black;
 }
@@ -148,12 +190,6 @@ hr {
 	margin-bottom: 2px;
 }
 
-#cabecalho > img {
-	position: relative;
-	width: 4%;
-	left: 79.3%;
-}
-
 #imagem-home {
 	width: 23%;
 	border-radius: 20px;
@@ -165,7 +201,14 @@ p {
 	text-align: justify;
 	margin-left: 1%;
 	margin-right: 1%;
-	display: inline-block;
+	display: block;
+	padding: 1%;
+}
+
+ol {
+	font-family: Verdana, sans-serif;
+	text-align: justify;
+	margin-left: 5%;
 }
 
 input {
@@ -198,11 +241,6 @@ textarea {
 	color: #58ACFA;
 	margin-bottom: 2%;
 	font-size: 1.3em;
-}
-
-#area-principal > img {
-	position: relative;
-	left: 35%;
 }
 
 .texto-form {
@@ -245,20 +283,19 @@ input[type=submit]:hover {
 		float: none;
 	}
 
-	#cabecalho > img {
-		left: 90%;
-		bottom: 113%;
-		width: 8%;
-		display: block;
-	}
-
 	#menu-principal {
+		font-size: 1em;
 		width: 100%;
 		margin: auto;
 		margin-top: 0.5%;
 		text-align: center;
 		float: none;
+		position: static;
 
+	}
+
+	#complemento-cabecalho, #complemento-cabecalho-um, #complemento-cabecalho-dois {
+		display: none;
 	}
 
 	#cabecalho {
@@ -281,6 +318,7 @@ input[type=submit]:hover {
 		float: none;
 		position: relative;
 		margin: auto;
+		left: 1%;
 		width: 30%;
 		margin-top: 2%;
 		border-radius: 10px;
@@ -302,10 +340,11 @@ input[type=submit]:hover {
 		float: none;
 	}
 
-	#cabecalho > img {
-		display: none;
+	ol {
+		margin-top: 2%;
+		margin-left: 10%;
+		margin-bottom: 2%;
 	}
-
 	#menu-principal {
 		width: 100%;
 		margin: auto;
