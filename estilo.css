@@ -244,9 +244,9 @@ input[type=submit]:hover {
 }
 
 iframe {
-	width: 60%;
+	width: 95%;
 	height: 550px;
-	margin-left: 20%;
+	margin-left: 2.5%;
 	margin-top: 2%;
 	margin-bottom: 2%;
 	border-radius: 20px;
