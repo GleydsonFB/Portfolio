@@ -37,9 +37,9 @@ body {
 #menu-principal {
 	font-size: 1.2em;
 	padding: 0.5%;
-	width: 40%;
+	width: 50%;
 	margin-top: 0.3%;
-	margin-right: 35%;
+	margin-right: 25%;
 	float: right;
 	word-spacing: 1%;
 }
@@ -202,6 +202,13 @@ textarea {
 	font-size: 1.3em;
 }
 
+#area-principal > h1 {
+	text-align: center;
+	color: #58ACFA;
+	margin-bottom: 2%;
+	font-size: 1.5em;
+}
+
 .texto-form {
 	text-align: left;
 	margin-left: 5%;
@@ -234,6 +241,15 @@ input[type=submit]:hover {
 	margin-left: 34.9%;
 	border-radius: 20px;
 	border: 2px solid black;
+}
+
+iframe {
+	width: 60%;
+	height: 550px;
+	margin-left: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	border-radius: 20px;
 }
 
 /* formatação responsiva */
@@ -300,6 +316,10 @@ input[type=submit]:hover {
 		font-size: 24px;
 		text-align: center;
 		float: none;
+	}
+
+	iframe {
+		display: none;
 	}
 
 	ol {
