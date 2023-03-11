@@ -252,6 +252,24 @@ iframe {
 	border-radius: 20px;
 }
 
+.titulo-projetos {
+	text-align: left;
+	color: #58ACFA;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-size: 1.3em;
+}
+
+.topicos-projetos {
+	text-align: left;
+	color: #58ACFA;
+	margin-left: 1%;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	font-size: 1.1em;
+}
+
 /* formatação responsiva */
 
 @media (max-width: 900px) {
