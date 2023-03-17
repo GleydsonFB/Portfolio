@@ -8,7 +8,7 @@
 body {
 	font-size: 1em;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-	background: #B2AFAF;
+	background: #D5D5D5;
 	margin: auto;
 }
 
@@ -16,7 +16,7 @@ body {
 /* Estrutura do site */
 
 #cabecalho {
-	background: #58ACFA;
+	background: #6D7993;
 	width: 95%;
 	margin: auto;
 	text-align: center;
@@ -32,6 +32,7 @@ body {
 	margin-top: 2%;
 	margin-left: 2.5%;
 	border-radius: 20px;
+	margin-bottom: 2%;
 }
 
 #menu-principal {
@@ -66,7 +67,7 @@ body {
 }
 
 #tabela-livro {
-	background: #F7FE2E;
+	background: #D5D5D5;
 	margin: auto;
 	padding: 0.9%;
 	width: 90%;
@@ -81,7 +82,7 @@ table, th, td {
 }
 
 th {
-	color: #49298D;
+	color: #96858F;
 	font-size: 1.1em;
 }
 
@@ -95,39 +96,43 @@ a {
 	text-decoration: none;
 }
 
+a:link {
+	color: green;
+}
+
 #menu-lateral > a:visited, #menu-lateral > a:link {
-	color: #49298D;
+	color: #96858F;
 }
 
 #menu-lateral > a:hover{
 	color: white;
-	background: #B2AFAF;
+	background: #9099A2;
 	border-radius: 10px;
 }
 
 .linha-tabela a:visited, .linha-tabela a:link {
-	color: #58ACFA;
+	color: #6D7993;
 }
 
 #menu-principal > a:visited, #menu-principal > a:link {
-	color: #F7FE2E;
+	color: white;
 }
 
 #menu-principal > a:hover{
-	color: #8A0829;
-	background: #B2AFAF;
+	color: #6D7993;
+	background: white;
 	border-radius: 10px;
 }
 
 .legenda-livro > a:visited, .legenda-livro a:link {
-	color: #58ACFA;
+	color: #6D7993;
 }
 
 /* estilização geral */
 
 #nome-cabecalho {
 	font-size: 2.2em;
-	color: #F7FE2E;
+	color: white;
 	font-family: "Brush Script MT", "Brush Script Std", sans-serif;
 	display: block;
 	float: left;
@@ -140,7 +145,7 @@ a {
 }
 
 #menu-lateral > h3 {
-	color: #58ACFA;
+	color: #6D7993;
 }
 
 hr {
@@ -177,7 +182,7 @@ input {
 	padding: 0.5%;
 	margin-bottom: 1%;
 	font-size: 14px;
-	border: 1px solid #58ACFA;
+	border: 1px solid #6D7993;
 	border-radius: 15px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
@@ -186,7 +191,7 @@ textarea {
 	width: 95%;
 	outline: unset;
 	margin-left: 2%;
-	border: 1px solid #58ACFA;
+	border: 1px solid #6D7993;
 	border-radius: 15px;
 	padding: 0.5%;
 	height: 100px;
@@ -197,14 +202,14 @@ textarea {
 
 #area-principal > h2 {
 	text-align: center;
-	color: #58ACFA;
+	color: #6D7993;
 	margin-bottom: 2%;
 	font-size: 1.3em;
 }
 
 #area-principal > h1 {
 	text-align: center;
-	color: #58ACFA;
+	color: #6D7993;
 	margin-bottom: 2%;
 	font-size: 1.5em;
 }
@@ -213,7 +218,7 @@ textarea {
 	text-align: left;
 	margin-left: 5%;
 	margin-bottom: 1%;
-	color: #58ACFA;
+	color: #6D7993;
 }
 
 input[type=submit] {
@@ -221,7 +226,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-	background: #58ACFA;
+	background: #6D7993;
 	color: #F7FE2E;
 }
 
@@ -254,7 +259,7 @@ iframe {
 
 .titulo-projetos {
 	text-align: left;
-	color: #58ACFA;
+	color: #6D7993;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 2%;
@@ -263,7 +268,7 @@ iframe {
 
 .topicos-projetos {
 	text-align: left;
-	color: #58ACFA;
+	color: #6D7993;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 2%;
@@ -322,6 +327,10 @@ iframe {
 
 	.legenda-livro {
 		left: 60%;
+	}
+
+	footer {
+		text-shadow: none;
 	}
 }
 
@@ -401,7 +410,7 @@ iframe {
 		display: block;
 		text-align: center;
 		margin-top: 5%;
-		border: 1px solid #58ACFA;
+		border: 1px solid #6D7993;
 		border-radius: 10px;
 	}
 
