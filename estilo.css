@@ -58,7 +58,7 @@ body {
 }
 
 #form {
-	background: dimgray;
+	background: #D5D5D5;
 	width: 98%;
 	margin: auto;
 	border-radius: 20px;
@@ -126,6 +126,11 @@ a:link {
 
 .legenda-livro > a:visited, .legenda-livro a:link {
 	color: #6D7993;
+}
+
+input[type=submit]:hover {
+	background: #6D7993;
+	color: white;
 }
 
 /* estilização geral */
@@ -223,11 +228,6 @@ textarea {
 
 input[type=submit] {
 	cursor: pointer;
-}
-
-input[type=submit]:hover {
-	background: #6D7993;
-	color: #F7FE2E;
 }
 
 .legenda-livro {
