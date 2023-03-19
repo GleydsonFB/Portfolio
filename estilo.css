@@ -221,6 +221,7 @@ textarea {
 
 .texto-form {
 	text-align: left;
+	font-size: 1.1em;
 	margin-left: 5%;
 	margin-bottom: 1%;
 	color: #6D7993;
@@ -360,7 +361,6 @@ iframe {
 		margin-top: 0.7%;
 		text-align: center;
 		float: none;
-
 	}
 
 	.escapamento-menu {
