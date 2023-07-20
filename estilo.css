@@ -8,7 +8,7 @@
 body {
 	font-size: 1em;
 	font-family: "Comic Sans MS", Arial, serif;
-	background: #D5D5D5;
+	background: #a8bbbf;
 	margin: auto;
 }
 
@@ -16,16 +16,17 @@ body {
 /* Estrutura do site */
 
 #cabecalho {
-	background: #6D7993;
+	background: #224459;
 	width: 95%;
 	margin: auto;
 	text-align: center;
 	height: 50px;
 	padding: 0.5%;
+	border-radius: 10px;
 }
 
 #area-principal {
-	background: white;
+	background: #c1d4d9;
 	width: 70%;
 	padding: 0.5%;
 	float: left;
@@ -46,7 +47,7 @@ body {
 }
 
 #menu-lateral {
-	background: white;
+	background: #c1d4d9;
 	width: 10%;
 	padding: 0.5%;
 	float: right;
@@ -58,7 +59,7 @@ body {
 }
 
 #form {
-	background: #D5D5D5;
+	background: #58788c;
 	width: 98%;
 	margin: auto;
 	border-radius: 20px;
@@ -75,19 +76,27 @@ body {
 }
 
 table, th, td {
-	border: 1px solid white;
+	border: 1px solid #224459;
 	border-collapse: collapse;
 	padding: 5px 5px;
 	text-align: center;
 }
 
+td {
+	color: #58788c;
+}
+
 th {
-	color: #96858F;
+	color: #224459;
 	font-size: 1.1em;
 }
 
 .linha-tabela:hover {
-	background: white;
+	background: #a8bbbf;
+}
+
+.legenda-livro {
+	color: #58788c;
 }
 
 /* links */
@@ -97,47 +106,47 @@ a {
 }
 
 a:link {
-	color: green;
+	color: #224459;
 }
 
 #menu-lateral > a:visited, #menu-lateral > a:link {
-	color: #96858F;
+	color: #58788c;
 }
 
 #menu-lateral > a:hover{
-	color: white;
-	background: #9099A2;
+	color: #a8bbbf;
+	background: #224459;
 	border-radius: 10px;
 }
 
 .linha-tabela a:visited, .linha-tabela a:link {
-	color: #6D7993;
+	color: #819ba6;
 }
 
 #menu-principal > a:visited, #menu-principal > a:link {
-	color: white;
+	color: #c1d4d9;
 }
 
 #menu-principal > a:hover{
-	color: #6D7993;
-	background: white;
+	color: #224459;
+	background: #a8bbbf;
 	border-radius: 10px;
 }
 
 .legenda-livro > a:visited, .legenda-livro a:link {
-	color: #6D7993;
+	color: #224459;
 }
 
 input[type=submit]:hover {
-	background: #6D7993;
-	color: white;
+	background: #224459;
+	color: #c1d4d9;
 }
 
 /* estilização geral */
 
 #nome-cabecalho {
 	font-size: 2.2em;
-	color: white;
+	color: #c1d4d9;
 	font-family: "Brush Script MT", "Brush Script Std", serif;
 	display: block;
 	float: left;
@@ -150,7 +159,7 @@ input[type=submit]:hover {
 }
 
 #menu-lateral > h3 {
-	color: #6D7993;
+	color: #224459;
 }
 
 hr {
@@ -172,12 +181,14 @@ p {
 	margin-right: 1%;
 	display: block;
 	padding: 1%;
+	color: #58788c;
 }
 
 ol {
 	font-family: Verdana, serif;
 	text-align: justify;
 	margin-left: 5%;
+	color: #58788c;
 }
 
 input {
@@ -190,6 +201,7 @@ input {
 	border: 1px solid #6D7993;
 	border-radius: 15px;
 	font-family: "Comic Sans MS", Arial, serif;
+	background: #c1d4d9;
 }
 
 textarea {
@@ -203,18 +215,19 @@ textarea {
 	margin-bottom: 1%;
 	font-size: 14px;
 	font-family: "Comic Sans MS", Arial, serif;
+	background: #c1d4d9;
 }
 
 #area-principal > h2 {
 	text-align: center;
-	color: #6D7993;
+	color: #224459;
 	margin-bottom: 2%;
 	font-size: 1.3em;
 }
 
 #area-principal > h1 {
 	text-align: center;
-	color: #6D7993;
+	color: #224459;
 	margin-bottom: 2%;
 	font-size: 1.5em;
 }
@@ -224,7 +237,7 @@ textarea {
 	font-size: 1.1em;
 	margin-left: 5%;
 	margin-bottom: 1%;
-	color: #6D7993;
+	color: #224459;
 }
 
 input[type=submit] {
@@ -260,7 +273,7 @@ iframe {
 
 .titulo-projetos {
 	text-align: left;
-	color: #6D7993;
+	color: #224459;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 2%;
@@ -269,7 +282,7 @@ iframe {
 
 .topicos-projetos {
 	text-align: left;
-	color: #6D7993;
+	color: #224459;
 	margin-left: 1%;
 	margin-top: 1%;
 	margin-bottom: 2%;
