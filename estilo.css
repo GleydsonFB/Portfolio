@@ -6,8 +6,8 @@
 }
 
 body {
-	font-size: 1em;
-	font-family: "Comic Sans MS", Arial, serif;
+	font-size: 1.1em;
+	font-family: "Calibri", Arial, serif;
 	background: #a8bbbf;
 	margin: auto;
 }
@@ -80,6 +80,7 @@ table, th, td {
 	border-collapse: collapse;
 	padding: 5px 5px;
 	text-align: center;
+	background: #a8bbbf;
 }
 
 td {
@@ -109,11 +110,18 @@ a:link {
 	color: #224459;
 }
 
+#area-principal a:visited {
+	color: #58788c;
+}
+
+#area-principal a:link {
+	color: #224459;
+}
 #menu-lateral > a:visited, #menu-lateral > a:link {
 	color: #58788c;
 }
 
-#menu-lateral > a:hover{
+#menu-lateral > a:hover, #area-principal a:hover{
 	color: #a8bbbf;
 	background: #224459;
 	border-radius: 10px;
@@ -163,9 +171,13 @@ input[type=submit]:hover {
 }
 
 hr {
-	border: 2px dotted black;
+	border: 2px dotted #224459;
 	margin-top: 2px;
 	margin-bottom: 2px;
+}
+
+#area-principal hr {
+	border: 1px dashed #224459;
 }
 
 #imagem-home {
@@ -232,6 +244,10 @@ textarea {
 	font-size: 1.5em;
 }
 
+.links-projetos {
+	color: #819ba6;
+}
+
 .texto-form {
 	text-align: left;
 	font-size: 1.1em;
@@ -259,7 +275,7 @@ input[type=submit] {
 	width: 30%;
 	margin-left: 34.9%;
 	border-radius: 20px;
-	border: 2px solid black;
+	border: 2px solid #224459;
 }
 
 iframe {
