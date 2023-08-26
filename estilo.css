@@ -110,11 +110,12 @@ a:link {
 	color: #224459;
 }
 
-#area-principal a:visited {
+
+#area-principal > a:visited {
 	color: #58788c;
 }
 
-#area-principal a:link {
+#area-principal > a:link {
 	color: #224459;
 }
 #menu-lateral > a:visited, #menu-lateral > a:link {
@@ -271,9 +272,15 @@ input[type=submit] {
 	display: none;
 }
 
-#area-principal > img {
+.imagens-sobre {
 	width: 30%;
 	margin-left: 34.9%;
+	border-radius: 20px;
+	border: 2px solid #224459;
+}
+
+.imagens-projeto-scp {
+	width: 100%;
 	border-radius: 20px;
 	border: 2px solid #224459;
 }
@@ -443,7 +450,7 @@ iframe {
 		border-radius: 10px;
 	}
 
-	#area-principal > img {
+	#imagens-sobre {
 		width: 40%;
 		margin-left: 30%;
 	}
